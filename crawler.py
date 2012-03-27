@@ -48,7 +48,7 @@ def get_busstop_list(bus):
         result.append({
             'title': item.title.text,
             'descrition': item.description.text,
-            'busstop_id': busstop['id']})
+            'location_id': busstop['id']})
 
     return result
 
@@ -91,7 +91,7 @@ busstop information file'})
 
 def pull_data():
     result = {'buses': list(get_bus_iter()),
-              'busstops': list(BUSSTOP_DICT.values()),
+              'locations': list(BUSSTOP_DICT.values()),
               'errors': ERRORS}
 
     print(json.dumps(result))

@@ -38,12 +38,12 @@ Output Format
 
     {
         "buses": [{"route": "K\\u0130RAZLITEPE-AC  ", "code": "1",
-    	      "busstops": {"busstop_id": 0, "descrition": "A0082aaaA0082aaaPARK", "title": "PARK"},
+    	      "busstops": {"location_id": 0, "descrition": "A0082aaaA0082aaaPARK", "title": "PARK"},
     	      "no": "1"}
     	      ....
     	     ],
     
-        "busstops": [{"lat": "41.03738",
+        "locations": [{"lat": "41.03738",
     		 "id": 0,
     		 "long": "29.06061"}
     		 ....
